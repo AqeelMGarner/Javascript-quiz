@@ -47,10 +47,37 @@ ol {
 li {
   padding: 5px;
   list-style: decimal inside none;
+  margin-left: 20%;
 }
 
-li:nth-child(odd) {
-  background-color: #f3edfc;
+ul button {
+  position: relative;
+  left: 19%;
+}
+
+hr {
+  width: 60%;
+  border: 2px solid black;
+}
+/* Right Answer styling*/
+.answerRight {
+  display: none;
+}
+
+.answerRightP {
+  position: absolute;
+  left: 350px;
+  font-size: 30px;
+}
+/*Wrong Answer styling*/
+.answerRight {
+  display: 
+}
+
+.answerWrongP {
+  position: absolute;
+  left: 350px;
+  font-size: 30px;
 }
 
 .wrapper {
@@ -64,6 +91,7 @@ li:nth-child(odd) {
 
 .start {
   text-align: center;
+  align-items: center;
 }
 
 .scores {
@@ -84,5 +112,40 @@ li:nth-child(odd) {
 .timer {
   position: absolute;
   top: 10px;
+  right: 10px;
+}
+.questionTitle {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+}
+.options button {
+  text-align: left;
+
+  width: 15%;
+  display: block;
+}
+.exit {
+  font-size: 30px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+.exit2 {
+  font-size: 30px;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+}
+.back {
+  font-size: 30px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+.next {
+  font-size: 30px;
+  position: absolute;
+  bottom: 10px;
   right: 10px;
 }
