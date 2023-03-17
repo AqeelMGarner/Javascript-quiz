@@ -70,8 +70,8 @@ hr {
   font-size: 30px;
 }
 /*Wrong Answer styling*/
-.answerRight {
-  display: 
+.answerWrong {
+  display: none;
 }
 
 .answerWrongP {
@@ -86,7 +86,7 @@ hr {
 }
 
 .hide {
-  display: none;
+  display: flex;
 }
 
 .start {
@@ -121,7 +121,6 @@ hr {
 }
 .options button {
   text-align: left;
-
   width: 15%;
   display: block;
 }
