@@ -10,7 +10,10 @@ N/A
 
 ## Usage
 
-The usage have already been stated in the description but please refer to the assets/images folder for the screenshots of the application 
+The usage have already been stated in the description but please refer to the assets/images folder for the screenshots of the application in more detail. 
+![alt text](assets/images/Screenshot%202023-03-18%2012.39.10.png)
+![alt text](assets/images/Screenshot%202023-03-18%2012.39.20.png)
+![alt text](assets/images/Screenshot%202023-03-18%2012.39.47.png)
 
 ## Credits
 
@@ -19,4 +22,8 @@ N/A
 ## License
 
 Please refer to the LICENSE in the repo
+
+## link
+
+https://aqeelmgarner.github.io/Javascript-quiz/
 

@@ -1,5 +1,5 @@
 function time() {
-    let seconds = 15;
+    let seconds = 10;
     let timeInterval = setInterval(function() {
         document.getElementById("time").innerHTML = seconds;
         if (seconds == 0) {
@@ -12,6 +12,7 @@ function time() {
     }, 1000);
 };
 time()
+
 var rightEls = document.querySelectorAll("#correct")
 var wrongEls = document.querySelectorAll("#wrong")
 var answerRightEls = document.querySelectorAll("#answerRight")
